@@ -1,6 +1,7 @@
-module.exports = {
+// postcss.config.js
+export default {
   plugins: {
-    '@tailwindcss/postcss': {},
+    tailwindcss: {},   // Правильное имя плагина (не @tailwindcss/postcss)
     autoprefixer: {},
   },
 };
